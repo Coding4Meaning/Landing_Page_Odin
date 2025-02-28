@@ -4,7 +4,7 @@ body{
 .header {
     background-color: #1F2937;
     display: flex;
-    padding: 10px;
+    padding: 10px 300px;
     justify-content: space-between;
 
 }
@@ -14,7 +14,37 @@ body{
 }
 .links-right {
     display:flex;
-    gap: 10px;
+    gap: 15px;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.hero {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 300px;
+    
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+.hero > p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.hero-text{
+    width: 400px;
+    height: 400px;
+    outline: 2px solid blue;
+}
+
+.hero-image{
+    width: 500px;
+    height: 350px;
+    outline: 2px solid blue;
+
 }
