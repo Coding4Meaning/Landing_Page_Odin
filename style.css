@@ -137,8 +137,8 @@ h5 {
     margin-top: -20px;
 }
 
+/* I don't know what's going on with the sign up button, but I like it */
 .call-to-action button {
-    
     padding: 5px 25px;
     border-radius: 8px;
     font-weight: bold;
@@ -149,4 +149,14 @@ h5 {
     font-weight: 900;
     padding: 5px 25px;
     font-size: 18px;
+}
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    font-size: 22px;
+    color: #E5E7EB;
+    font-weight: 900;
 }
