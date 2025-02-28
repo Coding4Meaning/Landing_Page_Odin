@@ -111,3 +111,42 @@ h5 {
    margin-top: -45px; 
    margin-right: 20px;
 }
+
+.call-to-action-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0
+
+}
+.call-to-action {
+    background-color: #3882F6;
+    width:800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px;
+    border-radius: 10px;
+}
+.call-text h2 {
+    font-size: 26px;
+    color: #E5E7EB;
+}
+.call-text p {
+    color: #E5E7EB;
+    margin-top: -20px;
+}
+
+.call-to-action button {
+    
+    padding: 5px 25px;
+    border-radius: 8px;
+    font-weight: bold;
+    background-color: #3882F6;
+    color:#E5E7EB;
+    border-color: #ffffff;
+    border-width: 3px;
+    font-weight: 900;
+    padding: 5px 25px;
+    font-size: 18px;
+}
