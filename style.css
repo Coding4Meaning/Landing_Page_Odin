@@ -4,7 +4,7 @@ body{
 .header {
     background-color: #1F2937;
     display: flex;
-    padding: 10px 300px;
+    padding: 10px 300px 0 300px;
     justify-content: space-between;
 
 }
@@ -23,28 +23,71 @@ body{
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
-    padding: 0 300px;
+    padding: 70px 300px;
+    
     
 }
 
-h1 {
+.hero-text > h1 {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
 }
-.hero > p {
+.hero > .hero-text > p {
     font-size: 18px;
+    color: #d2d5dd;
+    margin-top: -30px;
+}
+
+.hero > .hero-text > button {
+    background-color: #3882F6;
     color: #E5E7EB;
+    padding: 5px 25px;
+    border-radius: 8px;
+    font-weight: bold;
+    border-style: hidden;
+    font-size: 18px;
+
+
 }
 .hero-text{
     width: 400px;
-    height: 400px;
-    outline: 2px solid blue;
+    height: 300px;
+    
 }
 
 .hero-image{
-    width: 500px;
-    height: 350px;
-    outline: 2px solid blue;
+    width: 595px;
+    height: 300px;
+    background-image: url("images/elefant.jpg");
+    background-size: contain;
+}
 
+.info {
+    text-align: center;
+    margin: 40px 0;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin: 0px 300px 100px 300px;
+}
+.card {
+    width: 265px;
+    height: 300px;
+    text-align: center;
+    color: #2a313b;
+    font-size: 18px;
+}
+.info-image{
+    width: 265px;
+    height: 200px;
+    background-image: url(images/donkey.jpg);
+    background-size: contain;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
